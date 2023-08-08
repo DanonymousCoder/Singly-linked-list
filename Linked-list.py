@@ -7,4 +7,6 @@ class Node:
             self.head = None
         def append (self, data):
             new_node = Node(data)
+            if self.head is None:
+                self.head = new_node
     
