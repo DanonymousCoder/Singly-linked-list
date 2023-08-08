@@ -5,6 +5,6 @@ class Node:
     class singlylinked:
         def __init__(self) :
             self.head = None
-        def append (self, data)
+        def append (self, data):
             new_node = Node(data)
     
