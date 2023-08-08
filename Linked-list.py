@@ -3,4 +3,6 @@ class Node:
         self.data = data
         self.next = None
     class singlylinked:
+        def __init__(self) -> None:
+            pass
     
